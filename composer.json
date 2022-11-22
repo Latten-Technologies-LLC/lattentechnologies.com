@@ -1,0 +1,17 @@
+{
+    "name": "admin/lattentechnologies.com",
+    "description": "Latten Technologies is a technology company that creates applications, software and websites that will change the world",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\LattentechnologiesCom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James Latten",
+            "email": "james@sitelyftstudios.com"
+        }
+    ],
+    "require": {}
+}
