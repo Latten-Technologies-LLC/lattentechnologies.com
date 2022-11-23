@@ -4,8 +4,13 @@
   "description": "Latten Technologies is a technology company that creates applications, software and websites that will change the world",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "author": "James Latten",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "node-sass": "^8.0.0",
+    "npm-sass": "^3.1.0"
+  }
 }
