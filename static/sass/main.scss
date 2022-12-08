@@ -1,17 +1,196 @@
-@import '../../node_modules/bootstrap/scss/bootstrap';
-
 *{
     font-family: "Poppins";
 }
 
 body{
-    background: #000;
-    padding: 5px;
-    margin: 5px;
-
-    color: white;
+    background: #fff;
 }
 
-h2{
-    color: white;
+// Header
+.primary-head {
+    background: white;
+    padding: 20px;
+
+    background: transparent;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    .inner-head {
+        padding: 0px;
+
+        .left-branding {
+
+            a {
+                text-decoration: none;
+
+                h3 {
+                    color: #fff;
+
+                    font-size: 35px;
+                    font-weight: 500;
+
+                    margin: 0px;
+                }
+            }
+        }
+
+        .middle-info{
+            padding-top: 10px;
+
+            p{
+                color: #fff;
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+
+        .right-info{
+            //padding-top: 10px;
+
+            nav{
+                float: right;
+
+                ul{
+
+                    li{
+                        display: inline-block;
+                        margin-left: 14px;
+
+                        a{
+                            color: #fff;
+                            text-decoration: none;
+                            font-weight: 500;
+                        }
+                    }
+
+                    li.special{
+                        background: #000;
+                        padding: 10px;
+                        border: 1px solid #000;
+
+                        a{
+                            color: white;
+                            font-weight: 500;
+                        }
+                    }
+
+                    li.special:hover{
+                        cursor: pointer;
+                        background: white;
+                        border: 1px solid #000;
+
+                        a{
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Footer
+
+// Website
+
+// Index (Page)
+.top-index{
+    background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+
+    .cover{
+        background: rgba(0,0,0,.6);
+        width: 100%;
+        height: 100%;
+
+        .top-index-inner{
+            padding: 0px;
+
+            padding-top: 200px;
+            padding-bottom: 75px;
+
+            .welcome-first{
+
+                h3{
+                    color: #fff;
+
+                    font-size: 55px;
+                    font-weight: 600;
+
+                    margin-bottom: 10px;
+                }
+
+                p{
+                    color: #fff;
+
+                    font-size: 40px;
+                    font-weight: 300;
+                }
+            }
+
+            .mission{
+                padding-top: 40px;
+
+                p{
+                    font-size: 25px;
+                    font-weight: 400;
+
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+// Second Index - About Us
+.second-index{
+    background: #fff;
+    height: 800px;
+
+    .inner-second-index{
+        padding-top: 75px;
+
+        h3{
+            font-size: 45px;
+            font-weight: 500;
+
+            padding-top: 15px;
+        }
+
+        p{
+            font-size: 30px;
+            font-weight: 400;
+
+            padding-bottom: 20px;
+        }
+
+        .about-tech{
+
+            .stacks-inner{
+
+                .stack{
+
+                    h3{
+
+                    }
+
+                    ul{
+                        padding-left: 0px;
+                        margin-left: 30px;
+
+                        li{
+                            font-size: 20px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

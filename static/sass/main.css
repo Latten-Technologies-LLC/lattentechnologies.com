@@ -1,0 +1,28 @@
+* {
+  font-family: "Poppins";
+}
+
+body {
+  background: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+
+.primary-head {
+  background: white;
+  padding: 10px;
+}
+
+.primary-head .inner-head {
+  padding: 0px;
+}
+
+.primary-head .inner-head .left-branding a {
+  text-decoration: none;
+}
+
+.primary-head .inner-head .left-branding a h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
