@@ -13,5 +13,7 @@
             "email": "james@sitelyftstudios.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7"
+    }
 }
