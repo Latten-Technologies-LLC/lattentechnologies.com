@@ -3,3 +3,4 @@ db.sqlite3
 __pycache__
 /vendor/
 /node_modules/
+/src/settings.py
