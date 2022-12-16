@@ -80,7 +80,7 @@ body{
                     li.special:hover{
                         cursor: pointer;
                         background: white;
-                        border: 1px solid #000;
+                        border: 2px solid #000;
 
                         a{
                             color: #000;
@@ -93,6 +93,21 @@ body{
 }
 
 // Footer
+.footer{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background: #000;
+
+    h4{
+        color: white;
+        text-align: center;
+
+        padding: 0px;
+        margin: 0px;
+    }
+}
 
 // Website
 
@@ -101,7 +116,7 @@ body{
     background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-size: cover;
 
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
 
     .cover{
@@ -151,7 +166,7 @@ body{
 // Second Index - About Us
 .second-index{
     background: #fff;
-    height: 800px;
+    //height: 800px;
 
     .inner-second-index{
         padding-top: 75px;
@@ -168,6 +183,10 @@ body{
             font-weight: 400;
 
             padding-bottom: 20px;
+        }
+
+        .about-block{
+            padding-bottom: 100px;
         }
 
         .about-tech{
