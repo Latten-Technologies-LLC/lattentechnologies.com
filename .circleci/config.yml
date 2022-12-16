@@ -1,0 +1,22 @@
+version: 2.1
+
+deploy-prod:
+  docker:
+  # specify the version you desire here (you might not want node)
+  - image: circleci/node:7.10
+  steps:
+    - checkout
+    - run: ssh -oStrictHostKeyChecking=no -v circleci@143.198.118.144 “./lattentechnologies_deploy.sh”
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy-prod:
+          filters:
+            branches:
+              only:
+                - prod
+          requires:
+            - build
