@@ -2,7 +2,7 @@
 
 # Go to Directory
 echo "Finding 'lattentechnologies.com' directory"
-cd /var/www/lattentechnologies.com
+#cd /var/www/lattentechnologies.com
 
 # Pull from prod
 echo "Add repository to the safe directory list"
